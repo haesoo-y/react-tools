@@ -1,5 +1,13 @@
 {
-  "plugins": ["simple-import-sort", "unused-imports"],
+  "plugins": ["simple-import-sort", "unused-imports", "import", "prettier"],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": "latest"
+  },
   "rules": {
     "simple-import-sort/imports": [
       "error",
