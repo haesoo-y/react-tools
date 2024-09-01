@@ -1,0 +1,57 @@
+{
+  "plugins": ["simple-import-sort", "unused-imports"],
+  "rules": {
+    "simple-import-sort/imports": [
+      "error",
+      {
+        "groups": [
+          ["^next", "^react", "^redux", "axios", "^\\w"],
+          ["@tanstack", "@reduxjs", "@emotion", "@mui", "^@\\w"],
+          [
+            "@env",
+            "@templates",
+            "@components",
+            "@modals",
+            "@store",
+            "@hooks",
+            "@utils",
+            "@api",
+            "@schemas",
+            "@constants"
+          ],
+          ["^[./]"],
+          ["^.+\\.styled$"],
+          [
+            "^next.*\\u0000$",
+            "^react.*\\u0000$",
+            "^redux.*\\u0000$",
+            "^axios.*\\u0000$",
+            "@tanstack.*\\u0000$",
+            "@reduxjs.*\\u0000$",
+            "@emotion.*\\u0000$",
+            "@mui.*\\u0000$",
+            "@kep.*\\u0000$",
+            "^@?\\w.*\\u0000$",
+            "@env.*\\u0000$",
+            "@components.*\\u0000$",
+            "@modals.*\\u0000$",
+            "@store.*\\u0000$",
+            "@hooks.*\\u0000$",
+            "@utils.*\\u0000$",
+            "@api.*\\u0000$",
+            "@schemas.*\\u0000$",
+            "@constants.*\\u0000$",
+            "^[^.].*\\u0000$",
+            "^\\..*\\u0000$"
+          ]
+        ]
+      }
+    ],
+    "unused-imports/no-unused-imports": "error",
+    "unused-imports/no-unused-vars": "warn",
+    "sort-imports": "off",
+    "import/first": "error",
+    "import/newline-after-import": "error",
+    "import/no-duplicates": "error"
+  }
+}
