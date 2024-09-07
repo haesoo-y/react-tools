@@ -67,6 +67,9 @@ dependencies:
     version: 2.1.4
 
 devDependencies:
+  '@types/qs':
+    specifier: ^6.9.15
+    version: 6.9.15
   '@typescript-eslint/parser':
     specifier: ^8.3.0
     version: 8.3.0(eslint@8.57.0)(typescript@4.9.5)
@@ -3053,7 +3056,6 @@ packages:
 
   /@types/qs@6.9.15:
     resolution: {integrity: sha512-uXHQKES6DQKKCLh441Xv/dwxOq1TVS3JPUMlEqoEglvlhR6Mxnlew/Xq/LRVHpLyk7iK3zODe1qYHIMltO7XGg==}
-    dev: false
 
   /@types/range-parser@1.2.7:
     resolution: {integrity: sha512-hKormJbkJqzQGhziax5PItDUTMAM9uE2XXQmM37dyd4hVM+5aVl7oVxMVUiVQn2oCQFN/LKCZdvSM0pFRqbSmQ==}
