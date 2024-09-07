@@ -33,5 +33,6 @@
 - [useModal](https://haesoo-y.github.io/react-tools/functions/hooks.useModal.html)
 - [useRouter](https://haesoo-y.github.io/react-tools/functions/hooks.useRouter.html)
 - [useDebounce](https://haesoo-y.github.io/react-tools/functions/hooks.useDebounce.html)
+- [useLocalStorage](https://haesoo-y.github.io/react-tools/functions/hooks.useLocalStorage.html)
 
 ### Utils
