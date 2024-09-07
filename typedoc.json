@@ -1,5 +1,6 @@
 {
   "name": "Harry's React Tools Docs",
+  "favicon": "./.typedoc/favicon.png",
   "out": "./docs",
   "plugin": ["typedoc-plugin-extras"],
   "entryPoints": [
