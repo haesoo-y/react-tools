@@ -36,5 +36,4 @@ jobs:
         run: |
           git config --global user.name "haesoo-y"
           git config --global user.email "haesoo9410@gmail.com"
-          git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/haesoo-y/react-tools.git
           pnpm typedoc:deploy
