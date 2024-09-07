@@ -36,3 +36,5 @@
 - [useLocalStorage](https://haesoo-y.github.io/react-tools/functions/hooks.useLocalStorage.html)
 
 ### Utils
+
+- [capitalizeFirstLetter](https://haesoo-y.github.io/react-tools/functions/utils.capitalizeFirstLetter.html)
