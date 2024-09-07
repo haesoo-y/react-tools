@@ -38,3 +38,4 @@
 ### Utils
 
 - [capitalizeFirstLetter](https://haesoo-y.github.io/react-tools/functions/utils.capitalizeFirstLetter.html)
+- [deepClone](https://haesoo-y.github.io/react-tools/functions/utils.deepClone.html)
