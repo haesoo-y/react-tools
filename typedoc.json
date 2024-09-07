@@ -1,0 +1,11 @@
+{
+  "name": "Harry's React Tools Docs",
+  "out": "./docs",
+  "plugin": ["typedoc-plugin-extras"],
+  "entryPoints": [
+    "src/hooks/index.ts",
+    "src/components/index.ts",
+    "src/utils/index.ts"
+  ],
+  "exclude": ["node_modules/**", "src/**/*.test.ts", "src/**/*.spec.ts"]
+}

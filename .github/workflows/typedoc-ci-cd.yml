@@ -1,0 +1,37 @@
+name: Document Build and Deploy
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - "main"
+
+jobs:
+  typedoc-ci-cd:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js ⭐️
+        uses: actions/setup-node@v1
+        with:
+          node-version: 18
+
+      - uses: pnpm/action-setup@v2
+        name: Install pnpm ⭐️
+        with:
+          version: 8
+          run_install: false
+
+      - name: Install Dependencies ✈️
+        run: pnpm install
+
+      - name: Document Build 🔧
+        run: pnpm typedoc:build
+
+      - name: Document Deploy 🚀
+        run: |
+          git config --global user.name "haesoo-y"
+          git config --global user.email "haesoo9410@gmail.com"
+          pnpm typedoc:deploy
