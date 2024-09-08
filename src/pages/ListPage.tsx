@@ -1,5 +1,6 @@
 import { Box, Button, Grid2 } from "@mui/material";
 
+import AnimationTest from "@components/AnimationTest";
 import { useModal } from "@hooks/useModal";
 
 interface ListPageProps {}
@@ -13,6 +14,7 @@ const ListPage = ({}: ListPageProps) => {
       <ModalContainer>
         <Box style={{ width: "100px" }}>TEST</Box>
       </ModalContainer>
+      <AnimationTest />
     </Grid2>
   );
 };
