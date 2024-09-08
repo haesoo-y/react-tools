@@ -18,7 +18,7 @@ import { useEffect, useRef } from "react";
  *   const isActive = true;
  *   const fps = 30;
  *
- *   useRaf((deltaTime) => {
+ *   useAnimationFrame((deltaTime) => {
  *     // 주어진 콜백 함수에서 애니메이션 로직을 작성합니다.
  *     // deltaTime을 사용하여 프레임 간격에 따른 애니메이션을 조정할 수 있습니다. (optional)
  *   }, isActive, fps);
@@ -27,7 +27,7 @@ import { useEffect, useRef } from "react";
  * }
  * ```
  */
-export const useRaf = (
+export const useAnimationFrame = (
   callback: (deltaTime: number) => void,
   isActive: boolean,
   fps: number = 60

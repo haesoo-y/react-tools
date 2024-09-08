@@ -1,6 +1,6 @@
 import { useRef, useState } from "react";
 
-import { useRaf } from "@hooks/useRaf";
+import { useAnimationFrame } from "@hooks/useAnimationFrame";
 
 const AnimationTest = () => {
   const [position, setPosition] = useState(0); // 공의 좌우 위치
@@ -9,8 +9,8 @@ const AnimationTest = () => {
   const containerWidth = 400; // 애니메이션이 진행될 컨테이너 크기
   const directionRef = useRef(1); // 방향을 상태 대신 ref로 관리하여 즉시 반영
 
-  // useRaf 훅을 이용해 공의 위치를 프레임마다 업데이트 (60 FPS)
-  useRaf(
+  // useAnimationFrame 훅을 이용해 공의 위치를 프레임마다 업데이트 (60 FPS)
+  useAnimationFrame(
     (deltaTime) => {
       const speed = 5; // 공의 이동 속도
       setPosition((prevPosition) => {
