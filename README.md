@@ -42,3 +42,4 @@
 - [capitalizeFirstLetter](https://haesoo-y.github.io/react-tools/functions/utils.capitalizeFirstLetter.html)
 - [deepClone](https://haesoo-y.github.io/react-tools/functions/utils.deepClone.html)
 - [formatNumber](https://haesoo-y.github.io/react-tools/functions/utils.formatNumber.html)
+- [delay](https://haesoo-y.github.io/react-tools/functions/utils.delay.html)
