@@ -6,6 +6,7 @@
   "entryPoints": [
     "src/hooks/index.ts",
     "src/components/index.ts",
+    "src/modules/index.ts",
     "src/utils/index.ts"
   ],
   "exclude": ["node_modules/**", "src/**/*.test.ts", "src/**/*.spec.ts"]
