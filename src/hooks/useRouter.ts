@@ -15,7 +15,7 @@ import { stringify } from "qs";
  * router.back();
  * router.replace('/login');
  */
-export function useRouter() {
+export const useRouter = () => {
   const navigate = useNavigate();
   return useMemo(() => {
     return {
@@ -33,6 +33,6 @@ export function useRouter() {
       },
     };
   }, [navigate]);
-}
+};
 
 export type RoutePath = "/main" | "/todos";
