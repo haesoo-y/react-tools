@@ -35,6 +35,7 @@
 - [useDebounce](https://haesoo-y.github.io/react-tools/functions/hooks.useDebounce.html)
 - [useLocalStorage](https://haesoo-y.github.io/react-tools/functions/hooks.useLocalStorage.html)
 - [useRaf](https://haesoo-y.github.io/react-tools/functions/hooks.useRaf.html)
+- [useCopy](https://haesoo-y.github.io/react-tools/functions/hooks.useCopy.html)
 
 ### Utils
 
