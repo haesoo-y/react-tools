@@ -5,3 +5,4 @@ export { useLocalStorage } from "./useLocalStorage";
 export { useAnimationFrame } from "./useAnimationFrame";
 export { useCopy } from "./useCopy";
 export { useRequest } from "./useRequest";
+export { useInView } from "./useInView";
