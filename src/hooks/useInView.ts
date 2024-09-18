@@ -19,7 +19,7 @@ import { RefObject, useEffect, useRef, useState } from "react";
  * import { useInView } from './hooks/useInView';
  *
  * const ExampleComponent = () => {
- *   const { viewRef, isInView, isFirstView } = useInView<HTMLDivElement>();
+ *   const { viewRef, isInView, isFirstView } = useInView<HTMLDivElement>({rootMargin: '200px'}); // 200px만큼 감지 여백을 줍니다.
  *
  *   return (
  *     <div ref={viewRef}>
